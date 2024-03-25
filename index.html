@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronômetro</title>
+    <link rel="shortcut icon" href="Assets/toppng.com-vector-free-stock-icon-iconbros-chronometer-icon-347x367.png" type="image/x-icon">
+    <link rel="stylesheet" href="Styles/reset.css">
+    <link rel="stylesheet" href="Styles/styles.css">
+    <!-- FONTES GOOGLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Mono&family=Sixtyfour&display=swap" rel="stylesheet">
+
+    <script src="Scripts/cronometro.js" defer></script>
+
+</head>
+<body>
+    <h1>Cronômetro</h1>
+    <div class="container">
+        <div class="clocker">
+            <div class="clock" id="minutes">00</div>
+            <div class="separator">:</div>
+            <div class="clock" id="seconds">00</div>
+            <div class="separator">:</div>
+            <div class="clock" id="ms">000</div>
+        </div>
+        <div class="buttons">
+            <button class="button_start" id="start">Start</button>
+            <button class="button_pause" id="pause">Pause</button>
+            <button class="button_reset" id="resume">Resume</button>
+            <button class="button_reset" id="reset">Reset</button>
+            <button class="button_lap" id="lap">Lap</button>
+        </div>
+        <div class="laps" id="idLaps">
+            <div class="headLaps">
+                <h2>Laps</h2>
+                <p>Número de voltas</p>  <div id="nLaps">0</div>
+            </div>
+            <div class="lap" id="idLap">
+                <div class="clock-lap" id="minutes-lap"></div>
+                <div class="separator"></div>
+                <div class="clock-lap" id="seconds-lap"></div>
+                <div class="separator"></div>
+                <div class="clock-lap" id="ms-lap"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

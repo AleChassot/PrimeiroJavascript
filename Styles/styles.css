@@ -1,0 +1,119 @@
+*{
+    font-family: "Goldman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    height: 50%;
+    margin-left: 20%;
+    margin-top: 3%;
+    color: black;
+}
+.clocker{
+    display: flex;
+    align-items: center;
+    background-color: rgba(119,138,93,255);
+    padding: 5%;
+    border-radius: 20px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 100px;
+}
+.clock{
+    font-family: "Sixtyfour", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0;
+}
+h1{
+    font-family: "Goldman", sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 3%;
+}
+.buttons{
+    display: flex;
+    padding: 4% 40%;
+}
+button{
+    padding: 10px 40px;
+    border-radius: 20px;
+    border-style: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+.button_start{
+    background-color: white;
+    color: black;
+}
+.button_pause{
+    display: grid;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.button_lap{
+    margin-left: 4px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+#pause{
+    display: none;
+}
+#resume{
+    margin-left: 4px;
+    margin-right: 4px;
+    display: none;
+}
+#lap{
+    display: none;
+}
+h2{
+    font-family: "Goldman", sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 3%;
+}
+.laps{
+    background-color: rgba(119,138,93,255);
+    width: 400px;
+    border-radius: 20px;
+}
+.lap{
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 30px;
+    margin-left: 16%;
+    font-family: "Sixtyfour", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0;
+    font-size: 30px;
+    transition: all 0.4s ease-in-out;
+}
+#idLaps{
+    display: none;
+}
+p{
+    margin-top: 2px;
+}
+.headLaps{
+    display: inline-block;
+    font-family: "Goldman", sans-serif;
+    margin-top: 3%;
+}
